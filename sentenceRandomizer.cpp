@@ -24,7 +24,7 @@ int main(int argc,char **argv){
 	srand(time(NULL));
 
 	int i=0;
-	int numof=rand()%100;
+	int numof=rand()%100+5;//Force 5 cycles of swapping
 	char tmp[50];
 
 	vector<word>msg;
